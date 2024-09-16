@@ -24,7 +24,7 @@ int main() {
       ans=2;
       break;      
     default:
-      ans = sims
+      ans = sims;
       break;
   }
   cout << ans << endl;
