@@ -12,7 +12,7 @@ int main() {
   if (n2 == n3) sims++;
   if (n2 == n4) sims++;
   if (n3 == n4) sims++;
-  cout << sims << endl;
+
   switch(sims){
     case(6):  
       ans=3;
