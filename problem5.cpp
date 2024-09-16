@@ -18,13 +18,12 @@ int main() {
         case '/':
             if (b == 0) {
                 cout << "Division by zero is NOT allowed!" << endl;
-            } else {
-                r = a / b;
-            }
-        break;
+                return -1;
+            } r = a / b;
+            break;
         default:
             cout << "Invalid operator" << endl;
-        break;
+            return -1;
     }
     cout << r << endl;
 
